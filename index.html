@@ -68,7 +68,7 @@
   </header>
   <main class="container mx-auto">
     <!-- Banner -->
-    <div class="relative">
+    <div class="relative my-4 md:my-auto">
       <!-- Carousel -->
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
@@ -101,19 +101,20 @@
         </div>
       </div>
       <div
-        class="text-center text-white space-y-0 md:space-y-4 lg:space-y-8 top-1 md:top-20 container w-[60%] lg:w-[80%] md:left-40 mx-auto absolute flex flex-col items-center ml-16 md:ml-0">
-        <h1 class="text-xl md:text-2xl lg:text-7xl font-black">
+        class="text-center text-white space-y-0 md:space-y-4 lg:space-y-8 top-1 md:top-20 container w-[60%] lg:w-[80%] md:left-40 mx-auto absolute flex flex-col items-center ml-20 md:ml-0">
+        <h1 class="text-xl md:text-4xl lg:text-7xl font-black">
           Exotic tastes at your <br> doorstep
         </h1>
-        <p class="text-sm md:text-sm lg:w-[100%]">
+        <p class="text-sm md:text-base lg:w-[100%]">
           We supply highly quality organic products
         </p>
-        <button class="btn btn-error hidden md:flex text-white text-xs md:text-xl px-2 lg:px-8 lg:h-auto">
+        <button class="btn btn-error hidden md:flex text-white text-xs md:text-base px-2 lg:px-8 lg:h-auto">
           Shop Now
         </button>
         <button class="flex text-sm bg-[#F85559] px-2 py-1 rounded-lg cursor-pointer md:hidden">Shop Now</button>
       </div>
-      <div class="hidden md:hidden lg:flex absolute bg-white p-14 gap-28 w-[80%] -bottom-32 ml-36 rounded-lg shadow-xl container mx-auto justify-center">
+      <div
+        class="hidden md:hidden lg:flex absolute bg-white p-14 gap-28 w-[80%] -bottom-32 ml-36 rounded-lg shadow-xl container mx-auto justify-center">
         <div>
           <img src="images/fruit1.png" alt="">
           <p class="text-xl text-center">Blueberry</p>
@@ -137,7 +138,7 @@
       </div>
     </div>
     <!-- Deal of the Day -->
-    <div class="my-6 md:my-60 flex flex-col items-center">
+    <div class="my-8 lg:my-60 flex flex-col items-center">
       <div class="flex flex-col md:flex-row gap-6 md:gap-0 items-center mb-12 justify-around">
         <!-- Text Container -->
         <div class="flex flex-col gap-4 text-center md:text-left container">
@@ -340,11 +341,79 @@
       </div>
     </div>
     <!-- Why choose us section -->
-    <div>
-
+    <div class="my-40">
+      <div class="mb-20">
+        <h1 class="text-5xl font-black text-center mb-6">Why Choose Us</h1>
+        <p class="text-xl text-center w-[100%] md:w-1/2 container mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+        <div class="flex gap-4 items-center">
+          <div class="bg-gray-300 rounded-full p-2">
+            <i class="fa-solid fa-people-group fa-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl">Dedicated Team</h1>
+            <hr>
+            <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
+        </div>
+        <div class="md:row-span-2 lg:row-span-3">
+          <img src="images/whychoose1.png" alt="">
+        </div>
+        <div class="flex gap-4 items-center text-right">
+          <div>
+            <h1 class="text-2xl">Integrated Supplier</h1>
+            <hr>
+            <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
+          <div class="bg-gray-300 rounded-full p-2">
+            <i class="fa-solid fa-boxes-packing fa-xl"></i>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center">
+          <div class="bg-gray-300 rounded-full p-2">
+            <i class="fa-solid fa-hand-holding-heart fa-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl">Fresh is Best</h1>
+            <hr>
+            <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center text-right">
+          <div>
+            <h1 class="text-2xl">Sustainable Practice</h1>
+            <hr>
+            <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
+          <div class="bg-gray-300 rounded-full p-2">
+            <i class="fa-solid fa-ice-cream fa-2xl"></i>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center">
+          <div class="bg-gray-300 rounded-full p-2">
+            <i class="fa-solid fa-gift fa-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl">Gift Certificates</h1>
+            <hr>
+            <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-center text-right">
+          <div>
+            <h1 class="text-2xl">The Benefits Only</h1>
+            <hr>
+            <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
+          <div class="bg-gray-300 rounded-full p-2">
+            <i class="fa-solid fa-thumbs-up fa-2xl"></i>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
-  <footer class="footer footer-center p-10 bg-black text-base-content rounded">
+  <footer class="footer footer-center p-20 bg-black text-base-content rounded">
     <div>
       <div class="navbar-center flex">
         <img class="w-1/4 md:w-auto" src="images/logo.png" alt="">
@@ -360,13 +429,13 @@
       <a class="link link-hover">My Account</a>
     </div>
     <div>
-      <div class="grid grid-flow-col gap-4">
-        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-apple" style="color: #ffffff;"></i>
+      <div class="grid grid-cols-3 md:grid-cols-6 gap-10">
+        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-apple fa-2xl" style="color: #ffffff;"></i>
       </div>
     </div>
   </footer>
